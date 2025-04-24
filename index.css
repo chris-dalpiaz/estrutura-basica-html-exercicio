@@ -1,0 +1,30 @@
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .c{
+    color: black;
+    background-color: #1f4d8d;
+    margin: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #meunome{
+    font-size: 30px;
+  }
+
+  .topdown{
+    justify-content: space-between;
+}
+
+.destaque:hover{
+    color: rgb(255, 255, 91);
+}
+
+body{
+    font-family: 'Poppins', normal;
+}
