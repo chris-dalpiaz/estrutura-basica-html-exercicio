@@ -1,59 +1,77 @@
-  html {
-    scroll-behavior: smooth;
-  }
+/* esse '*' foi necessário para remover a margem do cabeçalho e do rodapé*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .c {
-    color: black;
-    background-color: #1f4d8d;
-    margin: 10px;
-  }
+/* porém, por conta disso, é preciso adicionar a margem do h1, h2 e etc. manualmente*/
+h1,
+h2,
+h3 {
+  margin-bottom: 1rem;
+}
 
-  #sobremim,
-  #experiencias,
-  #contatoprogramacao {
-    scroll-margin-top: 150px;
-  }
+p {
+  margin-bottom: 1rem;
+}
 
-  a {
-    text-decoration: none;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
-  #meunome {
-    font-size: 30px;
-  }
+.c {
+  color: black;
+  background-color: #1f4d8d;
+  margin: 10px;
+}
 
-  header {
-    border: #005F73 solid 1px;
-    background-color: #005F73;
-    color: white;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
+#sobremim,
+#experiencias,
+#contatoprogramacao {
+  scroll-margin-top: 150px;
+}
 
-  footer {
-    border: #005F73 solid 1px;
-    background-color: #005F73;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
+a {
+  text-decoration: none;
+}
 
-  .destaque {
-    color: #ffffff;
-  }
+#meunome {
+  font-size: 30px;
+}
 
-  .destaque:hover {
-    color: #E9D8A6;
-  }
+header {
+  border: #005F73 solid 1px;
+  background-color: #005F73;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
 
-  body {
-    font-family: 'Poppins', normal;
-  }
+footer {
+  border: #005F73 solid 1px;
+  background-color: #005F73;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-  #fotoperfil {
-    border-radius: 50%;
-  }
+.destaque {
+  color: #ffffff;
+}
 
+.destaque:hover {
+  color: #E9D8A6;
+}
+
+body {
+  font-family: 'Poppins', normal;
+}
+
+#fotoperfil {
+  border-radius: 50%;
+}
