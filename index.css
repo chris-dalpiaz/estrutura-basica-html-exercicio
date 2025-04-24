@@ -2,29 +2,58 @@
     scroll-behavior: smooth;
   }
 
-  .c{
+  .c {
     color: black;
     background-color: #1f4d8d;
     margin: 10px;
   }
 
-  a {
-    text-decoration: none;
-    color: black;
+  #sobremim,
+  #experiencias,
+  #contatoprogramacao {
+    scroll-margin-top: 150px;
   }
 
-  #meunome{
+  a {
+    text-decoration: none;
+  }
+
+  #meunome {
     font-size: 30px;
   }
 
-  .topdown{
-    justify-content: space-between;
-}
+  header {
+    border: #005F73 solid 1px;
+    background-color: #005F73;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
-.destaque:hover{
-    color: rgb(255, 255, 91);
-}
+  footer {
+    border: #005F73 solid 1px;
+    background-color: #005F73;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
-body{
+  .destaque {
+    color: #ffffff;
+  }
+
+  .destaque:hover {
+    color: #E9D8A6;
+  }
+
+  body {
     font-family: 'Poppins', normal;
-}
+  }
+
+  #fotoperfil {
+    border-radius: 50%;
+  }
+
